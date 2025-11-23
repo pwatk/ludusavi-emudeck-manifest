@@ -11,6 +11,28 @@
         - save-states
       when:
         - os: linux
+"BigPEmu":
+  files:
+    "<home>/.bigpemu_userdata/*.bigpeep":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.bigpemu_userdata/*.bigpstate":
+      tags:
+        - save-states
+      when:
+        - os: linux
+    "<home>/Applications/BigPEmu/UserData/*.bigpeep":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/Applications/BigPEmu/UserData/*.bigpstate":
+      tags:
+        - save-states
+      when:
+        - os: linux
 "Cemu":
   files:
     "<home>/Emulation/roms/wiiu/mlc01/usr/save":
