@@ -39,7 +39,12 @@
         - os: linux
 "Dolphin":
   files:
-    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu":
+    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii/title":
+      tags:
+        - save
+      when:
+        - os: linux
+    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC":
       tags:
         - save
       when:
