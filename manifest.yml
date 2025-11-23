@@ -135,7 +135,7 @@
         - os: linux
 "PrimeHack":
   files:
-    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii":
+    "<home>/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii/title":
       tags:
         - save
       when:
