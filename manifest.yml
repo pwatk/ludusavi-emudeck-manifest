@@ -76,6 +76,11 @@
         - save-states
       when:
         - os: linux
+    "<home>/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution":
+      tags:
+        - config
+      when:
+        - os: linux
 "DuckStation":
   files:
     "<home>/Emulation/saves/duckstation/saves":
@@ -153,6 +158,11 @@
     "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE":
       tags:
         - save-states
+      when:
+        - os: linux
+    "<home>/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/Cheats":
+      tags:
+        - config
       when:
         - os: linux
 "PrimeHack":
