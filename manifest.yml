@@ -105,7 +105,6 @@
         - save
       when:
         - os: linux
-  files:
     "<home>.var/app/org.flycast.Flycast/config/data/flycast":
       tags:
         - save
