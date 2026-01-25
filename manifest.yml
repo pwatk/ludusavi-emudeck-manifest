@@ -100,12 +100,12 @@
         - os: linux
 "Flycast (Emudeck)":
   files:
-    "<home>.var/app/org.flycast.Flycast/data/flycast/*.*":
+    "<home>/.var/app/org.flycast.Flycast/data/flycast/*.*":
       tags:
         - save
       when:
         - os: linux
-    "<home>.var/app/org.flycast.Flycast/config/data/flycast":
+    "<home>/.var/app/org.flycast.Flycast/config/data/flycast":
       tags:
         - save
       when:
