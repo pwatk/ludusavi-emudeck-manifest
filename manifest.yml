@@ -258,7 +258,6 @@
         - save
       when:
         - os: linux
-  files:
     "<home>/Emulation/storage/xemu/eeprom.bin":
       tags:
         - save
